@@ -86,3 +86,61 @@ public class StudentGradeManager {
         scanner.close();
     }
 }
+
+/*
+Output:
+
+=== Student Grade Management System ===
+1. Add Student
+2. View All Students
+3. Exit
+Enter your choice: 1
+Enter student name: Yash
+Enter roll number: 1
+Enter marks for Subject 1: 90
+Enter marks for Subject 2: 96
+Enter marks for Subject 3: 80
+Student added successfully!
+
+=== Student Grade Management System ===
+1. Add Student
+2. View All Students
+3. Exit
+Enter your choice: 1
+Enter student name: Jay
+Enter roll number: 2
+Enter marks for Subject 1: 70
+Enter marks for Subject 2: 65
+Enter marks for Subject 3: 75
+Student added successfully!
+
+=== Student Grade Management System ===
+1. Add Student
+2. View All Students
+3. Exit
+Enter your choice: 2
+
+--- All Student Records ---
+Name: Yash
+Roll No: 1
+Marks: 90, 96, 80
+Total: 266
+Average: 88.66666666666667
+Grade: A
+---------------------------
+Name: Jay
+Roll No: 2
+Marks: 70, 65, 75
+Total: 210
+Average: 70.0
+Grade: B
+---------------------------
+
+=== Student Grade Management System ===
+1. Add Student
+2. View All Students
+3. Exit
+Enter your choice: 3
+Exiting the program. Goodbye!
+
+*/
